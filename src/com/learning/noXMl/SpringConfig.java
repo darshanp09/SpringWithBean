@@ -7,8 +7,10 @@ import com.learning.noXMl.shell.FortuneService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 
 @Configuration
+@PropertySource("classpath:application.properties")
 //@ComponentScan("com.learning.noXMl")
 public class SpringConfig {
 
